@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <p>ddd</p>
     <router-view></router-view>
   </div>
   
@@ -66,6 +65,12 @@
     color: #fff;
     background-color: #31744f;
     border-color: #31744f;
+  }
+
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #2b6043;
+    border-color: #2b6043;
   }
 
 </style>

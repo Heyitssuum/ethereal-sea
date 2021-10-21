@@ -29,7 +29,7 @@
       <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
         <li><a class="dropdown-item text-muted" href="#">Profile <span class="small border p-1 border-secondary rounded">Soon</span></a></li>
         <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="#">Sign out</a></li>
+        <li><a class="dropdown-item" href="/">Sign out</a></li>
       </ul>
     </div>
   </div>
