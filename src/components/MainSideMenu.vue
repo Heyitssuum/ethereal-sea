@@ -4,23 +4,37 @@
       <img alt="Vue logo" src="../assets/logo.png">
     </a>
     <ul class="nav nav-pills flex-column mb-auto mt-4 ps-3 pt-3">
-      <li class="nav-item mb-2">
+      <li class="nav-item mb-3">
         <a href="#" class="nav-link active" aria-current="page">
           Yield
         </a>
       </li>
-      <li class="nav-item mb-2">
-        <a href="#" class="nav-link text-muted">
-          High Council <span class="small border p-1 border-secondary rounded">Soon</span>
-        </a>
+      <li class="nav-item mb-3 d-flex justify-content-between">
+        <span href="#" class="nav-link text-muted">
+          High Council
+        </span>
+        <span class="small border p-1 border-secondary rounded text-muted" style="padding:0px 0.4rem 0px 0.4rem !important">Soon</span>
       </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link text-muted">
-          PVP/PVE <span class="small border p-1 border-secondary rounded">Soon</span>
-        </a>
+      <li class="nav-item mb-3 d-flex justify-content-between">
+        <span href="#" class="nav-link text-muted">
+          PVP/PVE 
+        </span>
+        <span class="small border p-1 border-secondary rounded text-muted" style="padding:0px 0.4rem 0px 0.4rem !important">Soon</span>
+      </li>
+      <li class="nav-item mb-3 d-flex justify-content-between">
+        <span href="#" class="nav-link text-muted">
+          HellForge 
+        </span>
+        <span class="small border p-1 border-secondary rounded text-muted" style="padding:0px 0.4rem 0px 0.4rem !important">Soon</span>
+      </li>
+      <li class="nav-item mb-3 d-flex justify-content-between">
+        <span href="#" class="nav-link text-muted">
+          Bazaar 
+        </span>
+        <span class="small border p-1 border-secondary rounded text-muted" style="padding:0px 0.4rem 0px 0.4rem !important">Soon</span>
       </li>
     </ul>
-    <div class="card bg-dark shadow" style="background-color: rgb(36, 39, 42) !important;">
+    <div class="card bg-dark shadow mb-2" style="background-color: rgb(36, 39, 42) !important;">
       <div class="card-body">
         <div class="dropdown">
           <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -35,6 +49,7 @@
         </div>
       </div>
     </div>
+    <a href="https://wraithsdao.com/" target="_blank" class="small text-muted">Powered by Wraiths DAO</a>
     
   </div>
 </template>
