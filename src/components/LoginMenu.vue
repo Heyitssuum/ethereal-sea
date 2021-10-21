@@ -3,8 +3,9 @@
     <div class="flex-column my-auto p-5">
       <img alt="Vue logo" class="mb-4" src="../assets/logo.png">
       <p class="text-muted">Connect with one of our available wallet info providers or create a new one.</p>
-      <a href="#" @click="login()" class="btn w-100 btn-primary mb-3"><img src="https://cdn.freebiesupply.com/logos/large/2x/metamask-logo-black-and-white.png" width="20" /> Connect with MetaMask</a>
+      <button type="button" @click="login()" class="btn w-100 btn-primary mb-3"><img src="https://cdn.freebiesupply.com/logos/large/2x/metamask-logo-black-and-white.png" width="20" /> Connect with MetaMask</button>
     </div>
+    <p class="small text-muted ps-5">Powered by Wraiths DAO</p>
   </div>
 </template>
 
@@ -17,6 +18,4 @@
       }
     }
   };
-
-  
 </script>

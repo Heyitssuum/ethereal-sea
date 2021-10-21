@@ -8,7 +8,7 @@
           <div class="card-body p-4">
             <div class="d-flex justify-content-between mb-3">
               <h5 class="card-title text-primary mb-0">Daily Rewards</h5>
-              <a href="#" @click="claimRewards()" class="btn btn-primary">Claim</a>
+              <button type="button" @click="claimRewards()" class="btn btn-primary" disabled>Claim Rewards</button>
             </div>
             <div class="d-flex justify-content-between mb-2">
               <div>
@@ -16,12 +16,16 @@
                 <p class="mb-0">$SEA</p>
               </div>
               <div>
+                <p class="mb-1 text-muted">Status</p>
+                <p class="mb-0">Inactive</p>
+              </div>
+              <div>
                 <p class="mb-1 text-muted">Reward</p>
-                <p class="mb-0">10/Day</p>
+                <p class="mb-0">TBD</p>
               </div>
               <div>
                 <p class="mb-1 text-muted">Accumulated Reward</p>
-                <p class="mb-0">100</p>
+                <p class="mb-0">-</p>
               </div>
             </div>
           </div>

@@ -79,4 +79,10 @@
     box-shadow: 0 0 0 0.25rem rgb(49 116 79 / 50%);
   }
 
+  .btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #31744f;
+    border-color: #31744f;
+  }
+
 </style>
