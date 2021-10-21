@@ -8,7 +8,7 @@
           <div class="card-body p-4">
             <div class="d-flex justify-content-between mb-3">
               <h5 class="card-title text-primary mb-0">Daily Rewards</h5>
-              <a href="#" class="btn btn-primary">Claim</a>
+              <a href="#" @click="claimRewards()" class="btn btn-primary">Claim</a>
             </div>
             <div class="d-flex justify-content-between mb-2">
               <div>
@@ -36,6 +36,11 @@
 
   export default {
     name: 'Yield',
+    methods:{
+      claimRewards(){
+        alert("Claiming rewards!");
+      }
+    },
     components: {
       MainSideMenu
     }

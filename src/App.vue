@@ -66,10 +66,17 @@
     border-color: #31744f;
   }
 
-  .btn-primary:hover {
+  .btn-primary:hover, .btn-primary:active {
     color: #fff;
     background-color: #2b6043;
     border-color: #2b6043;
+  }
+
+  .btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #2b6043;
+    border-color: #2b6043;
+    box-shadow: 0 0 0 0.25rem rgb(49 116 79 / 50%);
   }
 
 </style>
