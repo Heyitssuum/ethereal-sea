@@ -3,7 +3,7 @@
     <MainSideMenu />
     <div class="content">
       <div class="container px-5 py-3">
-        <h1 class="mb-4">Yield</h1>
+        <h1 class="mb-4 mt-2">Yield</h1>
         <div class="card bg-dark shadow" style="background-color:#24272a !important">
           <div class="card-body p-4">
             <div class="d-flex justify-content-between mb-3">

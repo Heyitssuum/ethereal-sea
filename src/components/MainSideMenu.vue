@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex flex-column flex-shrink-0 p-4 text-white bg-dark shadow-lg d-none d-md-flex" style="width: 280px;">
-    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none mt-2">
       <img alt="Vue logo" src="../assets/logo.png">
     </a>
     <ul class="nav nav-pills flex-column mb-auto mt-4 ps-3 pt-3">
