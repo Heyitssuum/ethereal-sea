@@ -21,7 +21,7 @@
               </div>
               <div>
                 <p class="mb-1 text-muted">Reward</p>
-                <p class="mb-0">TBD</p>
+                <p class="mb-0">TBA</p>
               </div>
               <div>
                 <p class="mb-1 text-muted">Accumulated Reward</p>
